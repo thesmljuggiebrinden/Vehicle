@@ -88,7 +88,6 @@ class Volvo(Vehicles):
     pass
 
 smart = Smart('Smart', 'EQ Fortwo')
-ilx = Acura('Acura', 'ILX')
 
 smart.describe()
 
