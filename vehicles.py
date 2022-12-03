@@ -29,15 +29,25 @@ class Vehicles:
 
     def details(self):
         print("{} {}".format(self.make, self.model))
-        print("Exterior Dimensions + Weight :{} in. {} in. {} in. {} in. {} lb.".format
-              (self.length, self.width, self.height,self.wheelbase, self.weight))
-        print("Cargo: {} lb. {} cu.Ft {} lb.".format
-              (self.max_load, self.cargo_volume, self.towing_capacity))
-        print("Interior Dimensions: "
-              "{} in. {} in. {} in. {} in. {} in. {} in. {} in. {} in. {} in.".format
-              (self.front_shoulderroom, self.front_legroom, self.front_headroom,
-               self.rear_shoulderroom, self.rear_legroom, self.rear_headroom,
-               self.thirdrow_shoulderroom, self.thirdrow_legroom, self.thirdrow_headroom))
+        print("Length: {} in.".format(self.length))
+        print("Width: {} in.".format(self.width))
+        print("Height: {} in.".format(self.height))
+        print("Wheelbase: {} in.".format(self.wheelbase))
+        print("Weight: {} lb.".format(self.weight))
+        print("Max load: {} lb.".format(self.max_load))
+        print("Cargo volume: {} cu.Ft".format(self.cargo_volume))
+        print("Towing capacity: {} lb.".format(self.towing_capacity))
+        print("Front shoulder room: {} in.".format(self.front_shoulderroom))
+        print("Front leg room: {} in.".format(self.front_legroom))
+        print("Front head room: {} in.".format(self.front_headroom))
+        print("Rear shoulder room: {} in.".format(self.rear_shoulderroom))
+        print("Rear leg room: {} in.".format(self.rear_legroom))
+        print("Rear head room: {} in.".format(self.rear_headroom))
+        print("Third row shoulder room: {} in.".format(self.thirdrow_shoulderroom))
+        print("Third row leg room: {} in.".format(self.thirdrow_legroom))
+        print("Third row head room: {} in.".format(self.thirdrow_headroom))
+
+
 
 
 
@@ -122,8 +132,7 @@ class Volkswagen(Vehicles):
 class Volvo(Vehicles):
     pass
 
-smart = Smart('Smart', 'EQ Fortwo', 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
-smart.details()
+
 
 
 
