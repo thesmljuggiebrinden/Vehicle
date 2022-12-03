@@ -27,7 +27,7 @@ class Vehicles:
         self.thirdrow_headroom = thirdrow_headroom
 
 
-    def details(self):
+    def dimensions(self):
         print("{} {}".format(self.make, self.model))
         print("Length: {} in.".format(self.length))
         print("Width: {} in.".format(self.width))
@@ -132,6 +132,9 @@ class Volkswagen(Vehicles):
 class Volvo(Vehicles):
     pass
 
+smart = Smart('Smart', 'EQ Fortwo', 106.1, 74.5, 61.1, 73.7, 2363, 635, 8.9, 635,
+              None, None, None, None, None, None, None, None, None)
+smart.dimensions()
 
 
 
