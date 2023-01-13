@@ -54,34 +54,34 @@ class Vehicle:
         print('-----------------------------------------------')
 
     def exterior_dimensions(self):
-        print('Length: {}'.format(self.length))
-        print('Width: {}'.format(self.width))
-        print('Height: {}'.format(self.height))
-        print('Wheelbase: {}'.format(self.wheelbase))
-        print('Weight: {}'.format(self.weight))
+        print('Length: {} in.'.format(self.length))
+        print('Width: {} in.'.format(self.width))
+        print('Height: {} in.'.format(self.height))
+        print('Wheelbase: {} in.'.format(self.wheelbase))
+        print('Weight: {} lb.'.format(self.weight))
         print('-------------------------------------')
 
     def cargo(self):
-        print('Max Load: {}'.format(self.max_load))
-        print('Cargo Volume: {}'.format(self.cargo_volume))
-        print('Towing Capacity: {}'.format(self.towing_capacity))
+        print('Max Load: {} lb.'.format(self.max_load))
+        print('Cargo Volume: {} cu.Ft.'.format(self.cargo_volume))
+        print('Towing Capacity: {} lb.'.format(self.towing_capacity))
         print('-------------------------------------------------')
 
     def interior_dimensions(self):
-        print('Front Shoulder Room: {}'.format(self.front_shoulderroom))
-        print('Front Leg Room: {}'.format(self.front_legroom))
-        print('Front Head Room: {}'.format(self.front_headroom))
-        print('Rear Shoulder Room: {}'.format(self.rear_shoulderroom))
-        print('Rear Leg Room: {}'.format(self.rear_legroom))
-        print('Rear Head Room: {}'.format(self.rear_headroom))
-        print('Third Row Shoulder Room: {}'.format(self.thirdrow_shoulderroom))
-        print('Third Row Leg Room: {}'.format(self.thirdrow_legroom))
-        print('Third Row Head Room: {}'.format(self.thirdrow_headroom))
+        print('Front Shoulder Room: {} in.'.format(self.front_shoulderroom))
+        print('Front Leg Room: {} in.'.format(self.front_legroom))
+        print('Front Head Room: {} in.'.format(self.front_headroom))
+        print('Rear Shoulder Room: {} in.'.format(self.rear_shoulderroom))
+        print('Rear Leg Room: {} in.'.format(self.rear_legroom))
+        print('Rear Head Room: {} in.'.format(self.rear_headroom))
+        print('Third Row Shoulder Room: {} in.'.format(self.thirdrow_shoulderroom))
+        print('Third Row Leg Room: {} in.'.format(self.thirdrow_legroom))
+        print('Third Row Head Room: {} in.'.format(self.thirdrow_headroom))
         print('---------------------------------------------------------------')
 
     def fuel(self):
         print('{}'.format(self.fuel_type))
-        print('{}'.format(self.mpg))
+        print('{} mpg'.format(self.mpg))
         print('-------------------------')
 
     def distance(self, miles):
